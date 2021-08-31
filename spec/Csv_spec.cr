@@ -13,9 +13,9 @@ describe Csv do
     cities.should eq(["city1", "city2", "city3"])
 
     distances.should eq([
-      [0.0, 12.0, 13.0],
-      [12.0, 0.0, 23.0],
-      [13.0, 23.0, 0.0],
+      [0, 12, 13],
+      [12, 0, 23],
+      [13, 23, 0],
     ])
   end
 end
